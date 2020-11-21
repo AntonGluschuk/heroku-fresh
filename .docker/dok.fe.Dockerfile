@@ -10,6 +10,7 @@ RUN npm install --no-optional
 
 COPY . ./
 RUN npm run build
+RUN npm test
 EXPOSE 3000
 
 ENTRYPOINT ["npm", "start"]
