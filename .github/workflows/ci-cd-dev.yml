@@ -1,9 +1,9 @@
 name: GitHub Actions CI/CD Heroku
 
 on:
-  pull_request:
+  push:
     branches:
-      - develop
+      - master
 
 jobs:
   build:
@@ -31,6 +31,11 @@ jobs:
           npm ci
           npm run build
           npm test
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Needed to get PR information, if any
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       #   env:
       #     CI: true
       # - name: Build the tagged Docker image
