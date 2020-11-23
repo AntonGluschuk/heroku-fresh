@@ -1,3 +1,5 @@
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=AntonGluschuk_heroku-fresh&metric=coverage)](https://sonarcloud.io/dashboard?id=AntonGluschuk_heroku-fresh)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
