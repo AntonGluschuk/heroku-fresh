@@ -2,10 +2,10 @@ name: GitHub Actions CI/CD Heroku
 
 on:
   workflow_run:
-  workflows: ["Assemble"]
-  branches: [master]
-  types:
-    - completed
+    workflows: ["Assemble"]
+    branches: [master]
+    types:
+      - completed
 
 jobs:
   build:
