@@ -1,3 +1,8 @@
+![GitHub Actions CI/CD Heroku](https://github.com/AntonGluschuk/heroku-fresh/workflows/GitHub%20Actions%20CI%2FCD%20Heroku/badge.svg)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=AntonGluschuk_heroku-fresh&metric=coverage)](https://sonarcloud.io/dashboard?id=AntonGluschuk_heroku-fresh)
+![Issues](https://img.shields.io/github/issues/AntonGluschuk/heroku-fresh)
+![Pull requests](https://img.shields.io/github/issues-pr/AntonGluschuk/heroku-fresh)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
