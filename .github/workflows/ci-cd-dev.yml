@@ -30,6 +30,8 @@ jobs:
           path: ~/.npm
           key: v1-npm-deps-${{ hashFiles('**/package-lock.json') }}
           restore-keys: v1-npm-deps-
+      - name: Collect code coverage
+        run: npm run coverage
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
